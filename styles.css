@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  background-color: #1f4d80;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #edc17a;
+}
+
+.heading{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules{
+  height: 50px;
+  width: 75px;
+  border: none;
+  border-radius: 20px;
+  background-color: #edc17a;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 11.5px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(39, 38, 38);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.rules-pressed{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.description{
+  display: none;
+  background-color: rgb(59, 59, 59);
+  padding: 20px;
+  margin: 20px;
+  color: #edc17a;
+  font-family: 'Playwrite PE', cursive;
+  gap: 10px;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 50%;
+  border-top-left-radius: 40px;  
+}
+
+.description:hover{
+  cursor:crosshair;
+  transform: translateY(-10px); /* Move card up slightly */
+  box-shadow: 5 10px 16px black; /* Increase shadow */
+
+}
+
+.Game-name{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #edc17a;
+  display: none;
+}
