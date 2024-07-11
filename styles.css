@@ -107,3 +107,12 @@ body {
   color: #edc17a;
   display: none;
 }
+
+.game-over-buttons{
+  opacity: 0.25;
+}
+
+.missedButton{
+  opacity: 3;
+  box-shadow: rgb(90, 90, 92) 0px 0px 5px 20px;
+}
