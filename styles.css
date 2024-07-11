@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #1f4d80;
+  background-color: rgb(47, 182, 137);
 }
 
 #level-title {
@@ -19,7 +19,7 @@ body {
 
 .rules{
   height: 50px;
-  width: 75px;
+  width: 100px;
   border: none;
   border-radius: 20px;
   background-color: #edc17a;
