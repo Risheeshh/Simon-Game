@@ -16,9 +16,6 @@ $(document).keypress(function(event){//Game Begins
         $(".btn").on("click", userClick);//handle this.Not supposed to be here.
         Game();
     }
-    else if(count!=0){
-        userFail();
-    }
 });
 
 //handling the rules section
@@ -84,7 +81,7 @@ function nextSequence(){
 //the function handling the game's random pattern
 function Game(){
     for (var i = 1; i < 99999; i++) {//Stops the changing headings
-        clearInterval(i);
+        clearInterval(i);//stops the infinite changing heading loop
     }
     var chosenColor = color[nextSequence()];
     gamePattern.push(chosenColor);
